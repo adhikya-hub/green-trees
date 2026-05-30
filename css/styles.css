@@ -793,163 +793,6 @@ body {
 
     align-items: center;
 
-    gap: 4rem;
-}
-
-.events-heading h1 {
-    font-family: "Flood Std", sans-serif;
-
-    color: white;
-
-    font-size: 3rem;
-    line-height: 1.2;
-
-    text-align: center;
-
-    max-width: 20rem;
-}
-
-.events-cards {
-    display: flex;
-    flex-direction: column;
-
-    gap: 4rem;
-}
-
-.event-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    text-align: center;
-
-    position: relative;
-
-    gap: 2rem;
-}
-
-.event-label {
-    background-color: white;
-    color: #354463;
-
-    padding: 1rem 3rem;
-
-    position: absolute;
-    top: -1rem;
-
-    font-size: 0.9rem;
-}
-
-.event-card img {
-    width: 100%;
-    max-width: 18rem;
-
-    object-fit: cover;
-
-    display: block;
-}
-
-.event-card h2 {
-    color: white;
-
-    font-size: 2rem;
-    line-height: 1.3;
-
-    max-width: 20rem;
-}
-
-.event-card p {
-    color: white;
-
-    line-height: 1.7;
-
-    max-width: 18rem;
-}
-
-.read-btn {
-    background-color: #c1f7d5;
-    color: #354463;
-
-    border: none;
-    border-radius: 999px;
-
-    padding: 1rem 3rem;
-
-    font-size: 1.2rem;
-    font-weight: bold;
-
-    cursor: pointer;
-
-    width: fit-content;
-}
-
-@media (min-width: 768px) {
-    .events-wrapper {
-        align-items: flex-start;
-
-        max-width: 75rem;
-        margin: 0 auto;
-    }
-
-    .events-heading h1 {
-        text-align: left;
-
-        max-width: 40rem;
-
-        font-size: 4rem;
-    }
-
-    .event-card {
-        flex-direction: row;
-
-        align-items: center;
-        justify-content: center;
-
-        gap: 4rem;
-
-        text-align: left;
-    }
-
-    .event-card.reverse {
-        flex-direction: row-reverse;
-    }
-
-    .event-card img {
-        width: 24rem;
-    }
-
-    .event-content {
-        display: flex;
-        flex-direction: column;
-
-        align-items: flex-start;
-
-        gap: 1.5rem;
-
-        max-width: 24rem;
-    }
-
-    .event-card h2 {
-        font-size: 3rem;
-    }
-
-    .event-card p {
-        max-width: 100%;
-    }
-}
-
-.events-section {
-    background-color: #354463;
-
-    padding: 4rem 2rem;
-}
-
-.events-wrapper {
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-
     gap: 5rem;
 
     margin: 0 auto;
@@ -977,11 +820,13 @@ body {
     text-align: center;
 
     gap: 2rem;
+
+    position: relative;
 }
 
 .event-card img {
     width: 100%;
-    max-width: 32rem;
+    max-width: 30rem;
 
     object-fit: cover;
 
@@ -995,21 +840,19 @@ body {
     align-items: center;
 
     gap: 1.5rem;
-
-    position: relative;
 }
 
 .event-label {
     background-color: white;
     color: #354463;
 
-    padding: 1rem 3rem;
+    padding: 0.5rem 1rem;
 
     font-size: 0.9rem;
 
     position: absolute;
 
-    top: -2rem;
+    top: -1rem;
 }
 
 .event-card h2 {
@@ -1054,7 +897,8 @@ body {
     .events-heading h1 {
         text-align: left;
 
-        max-width: 40rem;
+        width: 100%;
+        max-width: 50rem;
 
         font-size: 4rem;
     }
@@ -1062,7 +906,7 @@ body {
     .event-card {
         flex-direction: row;
 
-        align-items: center;
+        align-items: start;
         justify-content: center;
 
         gap: 4rem;
@@ -1075,7 +919,7 @@ body {
     }
 
     .event-card img {
-        width: 24rem;
+        width: 20rem;
     }
 
     .event-content {
@@ -1085,7 +929,7 @@ body {
     }
 
     .event-card h2 {
-        font-size: 3rem;
+        font-size: 2rem;
 
         max-width: 100%;
     }
