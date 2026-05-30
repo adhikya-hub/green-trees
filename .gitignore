@@ -1,0 +1,85 @@
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# =========================
+# Zed Editor
+# =========================
+.zed/
+
+# =========================
+# VS Code / JetBrains
+# (optional if you use them)
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Node.js
+# (for npm packages/tools)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Build / Cache
+# =========================
+dist/
+build/
+.cache/
+.parcel-cache/
+.next/
+.out/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.local
+.env.*
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+*.swp
+
+# =========================
+# Sass / CSS preprocessors
+# =========================
+.sass-cache/
+
+# =========================
+# Coverage reports
+# =========================
+coverage/
+
+# =========================
+# System / Misc
+# =========================
+*.pid
+*.seed
+*.pid.lock
